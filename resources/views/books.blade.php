@@ -1,16 +1,16 @@
-@extends('layouts.app')
+@extends('layouts/app')
 
 @section('content')
 	<div class="container">
 		<div class="col-sm-offset-2 col-sm-8">
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					New Book
+                    書籍管理アプリ
 				</div>
 
 				<div class="panel-body">
 					<!-- Display Validation Errors -->
-					@include('common.errors')
+					@include('commons.errors')
 
 					<!-- New Book Form -->
 					<form action="/book" method="POST" class="form-horizontal">
